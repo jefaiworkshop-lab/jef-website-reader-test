@@ -1,0 +1,22 @@
+Jef n8n Procedure Retrieval — Usage terms reader copy
+Source: https://jefai.net/terms
+This is a text copy of the public website page for AI readers. The source website is authoritative.
+
+# Usage terms
+Jef n8n Procedure Retrieval is intended for its owner's personal use: reading an established operating-reference Google document into their AI workflow.
+## Current scope
+The current local route reads one established document through a saved n8n workflow. It checks the document and credential binding before execution. It does not provide arbitrary source selection or document editing, deletion or sharing.
+The website supplies information about that connection. It is not a commercial service, a public document browser or an invitation to connect other accounts.
+## Availability and interpretation
+Retrieval depends on the local runtime, the saved workflow, network access, Google Docs and valid authorization. The existing Google registration was published In production and its saved authorization was renewed on 27 September 2026, removing Google's Testing-specific seven-day authorization regime. Future revocation or interruption remains possible, and long-term authorization longevity has not been tested. No permanent access or availability promise is made.
+Simultaneous local retrieval requests have been qualified through the existing shared lock and serialized execution within the tested setup. The connection is intended for the owner's current setup; automatic selection in a new conversation and operation after account migration have not been established.
+Retrieved content becomes part of an AI conversation. The owner should assess the source and any AI interpretation before relying on them. The connection does not establish that every instruction in a document is suitable for every task.
+## Data practices and commitments
+Read the privacy disclosure for local processing, AI conversation and website hosting practices. These pages describe the current personal setup and do not offer a service-level agreement, support guarantee or additional retention commitment.
+Google, OpenAI and n8n are referenced to explain the implementation. No affiliation or endorsement is claimed.
+## Contact
+For contact and privacy enquiries, email jefaiworkshop@gmail.com.
+
+Privacy: https://jefai.net/privacy
+Last updated 27 September 2026.
+
