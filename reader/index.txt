@@ -1,0 +1,21 @@
+Jef n8n Procedure Retrieval — Home reader copy
+Source: https://jefai.net/
+This is a text copy of the public website page for AI readers. The source website is authoritative.
+
+Personal Google Docs connection
+# Read an operating reference into an AI conversation.
+Jef n8n Procedure Retrieval lets its owner retrieve an established Google document through a local n8n workflow and use its text in a Codex AI conversation.
+## What the connection does
+A local tool checks the saved workflow, then runs its Google Docs read operation. It returns the document text, title, source identity, revision and retrieval time to the conversation. The AI service processes that returned content as part of the conversation.
+The current route reads one established operating-reference document. It does not accept arbitrary document selection or edit, delete or share Google documents.
+## How access is limited
+The configured Google permission is read-only Google Docs access. This permission is broader than one document. The local implementation separately restricts the route to the established document and checks the saved workflow and credential binding before execution.
+## About this website
+These pages explain a personal-use connection. They do not offer a public retrieval service or a sign-in facility. The connection is independently operated; no endorsement by Google, OpenAI or n8n is claimed.
+## Data practices and use
+Read the privacy disclosure for the data flow and storage boundaries, and the usage terms for the intended use and current limitations.
+
+Privacy: https://jefai.net/privacy
+Usage terms: https://jefai.net/terms
+Last updated 27 September 2026.
+
