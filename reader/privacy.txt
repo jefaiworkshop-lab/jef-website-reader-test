@@ -1,0 +1,31 @@
+Jef n8n Procedure Retrieval — Privacy reader copy
+Source: https://jefai.net/privacy
+This is a text copy of the public website page for AI readers. The source website is authoritative.
+
+# Privacy
+The private retrieval system reads Google document data locally and sends the retrieved result into the owner's AI conversation. The document does not stay entirely on the owner's PC.
+## Google data accessed
+The workflow retrieves the established document's content and metadata from Google Docs. The local tool returns document text, title, document identity and source link, revision identifier, retrieval time, character count and a content checksum.
+The configured OAuth scope is read-only Google Docs access. Google does not limit that scope to a single document. The local tool enforces the one-document route and validates the saved workflow and credential binding. The route does not edit, delete or share documents or accept an arbitrary source.
+## Purpose and processing
+- The owner invokes the local retrieval tool to obtain the operating reference for their AI workflow.
+- The tool runs a saved Google Docs Get workflow through the local n8n command-line interface.
+- The verified result is returned to Codex, where the AI service processes its content within the conversation.
+The website itself does not retrieve the document or provide access to the connection.
+## Credentials and local records
+Google authorization credentials are handled by n8n's credential system. The retrieval tool uses the saved credential binding; it does not export credentials into its document result or into these pages.
+Local n8n execution history can contain retrieved document data. Existing local backups contain application data. These are separate from the data held by Google and from the content processed in the AI conversation.
+## Retention and deletion
+No retention period or automatic deletion schedule has been established for the local execution history or backups. The AI conversation is also subject to the AI service's terms and account settings; no account-specific retention or deletion assurance has been verified for this setup.
+No contractual privacy guarantee, certification or specific data-residency commitment is made for this personal setup.
+## Public website behavior
+The authored pages contain no analytics, cookies, tracking scripts, forms or external fonts. They do not request a Google sign-in or contain private document identifiers or credentials. This describes the page code; the hosting platform can process network and operational data separately.
+This website uses ChatGPT Sites, operated by OpenAI with hosting providers acting on its behalf. Serving pages involves processing browser requests. OpenAI's general privacy policy describes log data such as IP address, browser information and request time. Sites documentation also describes metadata, logs and operational data used to host, secure and debug a site. A specific retention period for this website's request logs has not been established.
+ChatGPT Sites does not support data residency at launch. OpenAI's Sites terms describe its processing of hosted data and the applicable data-processing agreement. The website has no app-owned sign-in, visitor submissions or connected-app access. Hosting this information does not give the website access to the owner's Google document.
+Information supplied to ChatGPT while creating or managing a site is separate from ordinary website visits. OpenAI's documentation says use of those conversations for model training depends on the account type and data controls. The owner's current account controls have not been independently verified; this disclosure does not promise that all AI conversation data is excluded from training.
+See OpenAI's privacy policy, ChatGPT Sites terms and Sites data and hosting information for the provider's current statements.
+## Contact
+For contact and privacy enquiries, email jefaiworkshop@gmail.com.
+
+Last updated 27 September 2026.
+
